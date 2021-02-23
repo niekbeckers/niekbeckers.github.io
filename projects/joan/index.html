@@ -5,12 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>JOAN | Niek Beckers</title>
+<title>JOAN: a framework for human-automated vehicle experiments | Niek Beckers</title>
 
 <meta name="keywords" content="" />
-<meta name="description" content="Work in progress :-)
-We made a video explaining JOAN in more detail:
-  ">
+<meta name="description" content="The Human-Robot Interaction group of Cognitive Robotics at TU Delft does a lot of research on interactions between humans and automated vehicles (drivers, but also pedestrians and other road users). In order to facilitate this research, we need a high-fidelity and customizable virtual reality driving simulator.
+At the core of our virtual driving simulator is CARLA, a driving simulator based on the Unreal gaming engine developed for autonomous vehicle-related research CARLA has been developed to support the development, training, and validation of autonomous vehicles, and contains a massive toolset for machine learning applications.">
 <meta name="author" content="Niek">
 <link rel="canonical" href="https://niekbeckers.github.io/projects/joan/" />
 <link href="/assets/css/stylesheet.min.f580a29692e0c7eb72865ec0bd4ee916bef2dc7e85f4fbfdf6a609b3a0f4f6a1.css" integrity="sha256-9YCilpLgx&#43;tyhl7AvU7pFr7y3H6F9Pv99qYJs6D09qE=" rel="preload stylesheet"
@@ -26,10 +25,9 @@ We made a video explaining JOAN in more detail:
 <meta name="generator" content="Hugo 0.80.0" />
 
 
-<meta property="og:title" content="JOAN" />
-<meta property="og:description" content="Work in progress :-)
-We made a video explaining JOAN in more detail:
-  " />
+<meta property="og:title" content="JOAN: a framework for human-automated vehicle experiments" />
+<meta property="og:description" content="The Human-Robot Interaction group of Cognitive Robotics at TU Delft does a lot of research on interactions between humans and automated vehicles (drivers, but also pedestrians and other road users). In order to facilitate this research, we need a high-fidelity and customizable virtual reality driving simulator.
+At the core of our virtual driving simulator is CARLA, a driving simulator based on the Unreal gaming engine developed for autonomous vehicle-related research CARLA has been developed to support the development, training, and validation of autonomous vehicles, and contains a massive toolset for machine learning applications." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://niekbeckers.github.io/projects/joan/" />
 <meta property="og:image" content="https://niekbeckers.github.io/img/"/>
@@ -38,10 +36,9 @@ We made a video explaining JOAN in more detail:
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://niekbeckers.github.io/img/"/>
 
-<meta name="twitter:title" content="JOAN"/>
-<meta name="twitter:description" content="Work in progress :-)
-We made a video explaining JOAN in more detail:
-  "/>
+<meta name="twitter:title" content="JOAN: a framework for human-automated vehicle experiments"/>
+<meta name="twitter:description" content="The Human-Robot Interaction group of Cognitive Robotics at TU Delft does a lot of research on interactions between humans and automated vehicles (drivers, but also pedestrians and other road users). In order to facilitate this research, we need a high-fidelity and customizable virtual reality driving simulator.
+At the core of our virtual driving simulator is CARLA, a driving simulator based on the Unreal gaming engine developed for autonomous vehicle-related research CARLA has been developed to support the development, training, and validation of autonomous vehicles, and contains a massive toolset for machine learning applications."/>
 
 
 <script type="application/ld+json">
@@ -58,7 +55,7 @@ We made a video explaining JOAN in more detail:
     {
       "@type": "ListItem",
       "position":  3 ,
-      "name": "JOAN",
+      "name": "JOAN: a framework for human-automated vehicle experiments",
       "item": "https://niekbeckers.github.io/projects/joan/"
     }
   ]
@@ -68,14 +65,14 @@ We made a video explaining JOAN in more detail:
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "JOAN",
-  "name": "JOAN",
-  "description": "Work in progress :-)\nWe made a video explaining JOAN in more detail:\n  ",
+  "headline": "JOAN: a framework for human-automated vehicle experiments",
+  "name": "JOAN: a framework for human-automated vehicle experiments",
+  "description": "The Human-Robot Interaction group of Cognitive Robotics at TU Delft does a lot of research on interactions between humans and automated vehicles (drivers, but also pedestrians and …",
   "keywords": [
     
   ],
-  "articleBody": "Work in progress :-)\nWe made a video explaining JOAN in more detail:\n  ",
-  "wordCount" : "13",
+  "articleBody": "The Human-Robot Interaction group of Cognitive Robotics at TU Delft does a lot of research on interactions between humans and automated vehicles (drivers, but also pedestrians and other road users). In order to facilitate this research, we need a high-fidelity and customizable virtual reality driving simulator.\nAt the core of our virtual driving simulator is CARLA, a driving simulator based on the Unreal gaming engine developed for autonomous vehicle-related research CARLA has been developed to support the development, training, and validation of autonomous vehicles, and contains a massive toolset for machine learning applications. Although CARLA is great, we were missing thorough support for human-in-the-loop experiments. That is why we developed JOAN (an acronym of the developer’s first names).\nJOAN is a Python-based framework to support human-in-the-loop experiments in CARLA. The framework is inspired by DUECA (a software architecture developed at TU Delft to support low-latency, real-time control their flight simulators) and has ROS, but it is simpler to set up and use. Students can program their own experiments easily through JOAN’s experiment manager, which handles data logging and any relevant conditions that need to be set during the experiment. In addition, we developed JOAN to support the use of haptic steering wheels (steering wheels that can generate torques, for example the SENSO Wheel); researchers can develop their own controllers and test them relatively quickly. To make developing with JOAN simple, we used Python (at the cost of very-soft real-time control of the steering wheel).\nJOAN is developed by a Joris, Andre, Olger and me, and we just released JOAN 2.0. Check the code on GitHub, or read more in the JOAN documentation.\nWe made a video explaining JOAN in more detail (including the VR goggle support):\n  ",
+  "wordCount" : "286",
   "inLanguage": "en",
   "datePublished": "2021-02-09T21:25:55+01:00",
   "dateModified": "2021-02-09T21:25:55+01:00",
@@ -177,18 +174,22 @@ We made a video explaining JOAN in more detail:
 </div>
 
     <h1 class="post-title">
-      JOAN
+      JOAN: a framework for human-automated vehicle experiments
     </h1>
     <div class="post-meta">
 
-February 9, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Niek
+February 9, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Niek
 
 </div>
   </header> 
 
   <div class="post-content">
-<p>Work in progress :-)</p>
-<p>We made a video explaining JOAN in more detail:</p>
+<p>The Human-Robot Interaction group of Cognitive Robotics at TU Delft does a lot of research on interactions between humans and automated vehicles (drivers, but also pedestrians and other road users). In order to facilitate this research, we need a high-fidelity and customizable virtual reality driving simulator.</p>
+<p>At the core of our virtual driving simulator is <a href="http://carla.org/">CARLA</a>, a driving simulator based on the Unreal gaming engine developed for autonomous vehicle-related research CARLA has been developed to support the development, training, and validation of autonomous vehicles, and contains a massive toolset for machine learning applications. Although CARLA is great, we were missing thorough support for human-in-the-loop experiments. That is why we developed JOAN (an acronym of the developer&rsquo;s first names).</p>
+<p><img src="/img/joan-illustrative-example.png" alt="JOAN"></p>
+<p>JOAN is a Python-based framework to support human-in-the-loop experiments in CARLA. The framework is inspired by DUECA (a software architecture developed at TU Delft to support low-latency, real-time control their flight simulators) and has ROS, but it is simpler to set up and use. Students can program their own experiments easily through JOAN&rsquo;s experiment manager, which handles data logging and any relevant conditions that need to be set during the experiment. In addition, we developed JOAN to support the use of haptic steering wheels (steering wheels that can generate torques, for example the SENSO Wheel); researchers can develop their own controllers and test them relatively quickly. To make developing with JOAN simple, we used Python (at the cost of very-soft real-time control of the steering wheel).</p>
+<p>JOAN is developed by a Joris, Andre, Olger and me, and we just released JOAN 2.0. Check the code on <a href="https://github.com/tud-hri/joan">GitHub</a>, or read more in the <a href="https://joan.readthedocs.io">JOAN documentation</a>.</p>
+<p>We made a video explaining JOAN in more detail (including the VR goggle support):</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/xcGXE7rI61s" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
