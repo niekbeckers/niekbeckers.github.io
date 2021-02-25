@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 09 Feb 2021 21:25:55 +0100</lastBuildDate><atom:link href="https://niekbeckers.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>JOAN: a framework for human-automated vehicle experiments</title>
+      <title>JOAN: a software framework for human-automated vehicle experiments</title>
       <link>https://niekbeckers.github.io/projects/joan/</link>
       <pubDate>Tue, 09 Feb 2021 21:25:55 +0100</pubDate>
       
       <guid>https://niekbeckers.github.io/projects/joan/</guid>
-      <description>The Human-Robot Interaction group of Cognitive Robotics at TU Delft does a lot of research on interactions between humans and automated vehicles (drivers, but also pedestrians and other road users). In order to facilitate this research, we need a high-fidelity and customizable virtual reality driving simulator.
-At the core of our virtual driving simulator is CARLA, a driving simulator based on the Unreal gaming engine developed for autonomous vehicle-related research CARLA has been developed to support the development, training, and validation of autonomous vehicles, and contains a massive toolset for machine learning applications.</description>
+      <description>The Human-Robot Interaction group of Cognitive Robotics at TU Delft does a lot of research on interactions between humans and automated vehicles (drivers interacting with their automated car, but also with pedestrians and other road users). We developed a high-fidelity and customizable virtual reality driving simulator that makes performing experiments as easy and repeatable as possible.
+At the core of our virtual driving simulator is CARLA, a driving simulator based on the Unreal game engine developed for autonomous vehicle-related research.</description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@ I am an engineer and researcher interested in human-robot interaction. I enjoy u
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://niekbeckers.github.io/projects/bros/</guid>
-      <description>During my PhD I studied and modeled how two people perform a task together through physical interaction: by interacting through forces for which I used a robot setup. Together with Koen from Hankamp Rehab, we designed and built our own robotic setup to perform my experiments. The setup consists of two identical high-performance planar robots, controlled by a real-time operating system (through EtherCAT and TwinCAT). We did multiple experiments on them, with over 140 participants and multiple Master theses 😃.</description>
+      <description>During my PhD I studied and modeled how two people perform a task together through physical interaction: by interacting through forces. We were interested in studying human-human interaction to develop better controllers for physical rehabilitation robots. Because we did not have a ready-made robot solution to research physical human-human interaction, we (Koen from Hankamp Rehab and I) designed and built our own robotic setup from scratch. The robot setup consists of two identical high-performance robots.</description>
     </item>
     
   </channel>
